@@ -1,0 +1,1004 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  scroll-behavior:smooth;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/Popg795x1060.jpg);
+  height: 50vh;
+  background-attachment: fixed;
+  
+  
+  background-position: center;
+  background-color: #333;
+  
+ font-family: 'Playfair Display', serif;
+  
+  
+}
+.header{
+  background-color: black;
+  top:0;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding:20px;
+}
+/*
+.pay{
+  width:100%;
+  height:700px;
+  border:2px solid red;
+  background-color: green;
+  background: rgba(76, 175, 80, 0);
+}*/
+.nav{
+  text-decoration:none;
+}
+
+.nav ul{
+  display: flex;
+  list-style-type: none;
+ right: 10px;
+  justify-content: right;
+  gap: 1rem;
+  color:white;
+  padding: 30px;
+  margin-right: 10px;
+}
+nav ul li {
+   top:0;
+   right: 0;
+}
+.nav ul a{
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+.section{
+  
+  width: 1000px;
+  height: 800vh;
+  background: black;
+  position: relative;
+  
+}
+.morning{
+  width:60%;
+  height:300px;
+  border: 2px solid black;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 300px;
+  text-align: center;
+  padding:20px;
+}
+.article{
+ margin-top:0;
+  width:100%;
+  height:500px;
+
+  background-color: green;
+  background: rgba(76, 175, 80, 0);
+  z-index: 1;
+  
+  
+}
+p{
+  color:white;
+  padding: 10px;
+}
+.p{
+  color: black;
+  font-size: 20px;
+}
+.h1{
+  margin-top: 50px;
+  font-size: 60px;
+}
+.div{
+  border: 2px solid black;
+  width:40%;
+  margin:0 auto;
+  background-color: black;
+  padding:10px;
+  border-radius: 20px;
+}
+.div a{
+  color: white;
+  text-decoration: none;
+}
+.header .nowrap {
+  font-weight: bold;
+  font-size: 25px;
+  left:10px;
+  place-content: start;
+  text-align: start;
+
+  
+}
+.class{
+   display: flex;
+ align-items: center;
+  margin-top:6rem;
+  gap: 0.5rem;
+  place-content: center;
+
+}
+.section .class .image{
+   margin-top: 6rem;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  overflow: hidden;
+  align-items: center;
+  position: relative;
+}
+.class img{
+  width: 6rem;
+  height: 8rem;
+  align-items:center;
+  
+}
+.section .class{
+   align-items: center;
+}
+
+
+
+
+.pam {
+   margin-top: 2rem;
+}
+.dirt{
+   background: white;
+}
+.pave .dirt .part p{
+   background: red;
+   position: absolute;
+}
+.image .new{
+   position: absolute;
+   background: grey;
+   top: 0px;
+   left:0;
+   color: white;
+   display: flow-root;
+   font-weight: 500;
+
+}
+.section{
+   
+   width: 100%;
+   
+}
+.section h3{
+   color: white;
+   text-align: start;
+}
+.image p{
+   text-align: start;
+}
+.class hr{
+  border: 1px solid white;
+}
+.section .photo{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   place-items: center;
+}
+.section .photo mma{
+
+}
+.section .photo .mma{
+   
+
+   display: flex;
+   width: 100%;
+   margin-top: 8rem;
+align-items: center;
+
+justify-content: space-between;
+gap: 1rem;
+place-content: center;
+
+
+
+   
+
+}
+.paper{
+   align-items: center;
+   
+}
+.photo .mma:last-child{
+
+   
+}
+.photo .footer img{
+width:600px;
+
+}
+.photo .margin img{
+   width: 300px;
+   height: 400px;
+}
+.photo h4{
+   color: white;
+}
+.section .mma p{
+   text-align: center;
+}
+.section .mma h4{
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 20px;
+}
+.section .mma .popg img{
+   width: 300px;
+   height: 300px;
+   margin-top: 200px;
+margin-left: 1000px;
+position: absolute;
+   
+}
+.section .popg .dab{
+   display: flex;
+   margin-top:200px;
+   background: dimgrey;
+   width: 100%;
+   height: 800px;
+   gap: 1rem;
+   border: 1px solid white;
+
+   
+
+}
+.section .popg .dab img{
+   margin-top: 100px;
+   width: 450px;
+   height: 600px;
+}
+.popg h2{
+   margin-top: 300px;
+   text-align: center;
+   color: white;
+   font-size: 55px;
+   font-weight: bolder;
+   line-height: 2.5;
+   margin-left: 90px;
+   position: relative;
+}
+.popg p{
+margin-left: 90px;
+gap: 1rem;
+
+   
+}
+
+.section{
+   height: 3800px;
+   width: 100%;
+   
+}
+.section .grid{
+   display: grid;
+   margin-top: 100px;
+   width: 100%;
+
+}
+.section .grid div{
+   display: flex;
+   grid-column: 3;
+   gap:1rem;
+}
+.section .grid img{
+   width: 300px;
+   height: 400px;
+   
+   justify-content: center;
+}
+.section .grid .drive{
+   margin-top:1rem;
+}
+.section .clothing{
+   display: flex;
+   margin-top: 150px;
+   width: 100%;
+   height: 500px;
+   border: 1px solid white;
+   position: relative;
+}
+.section .clothing img{
+   height:500px;
+   width:200;
+}
+.clothing h2{
+   color: white;
+   margin-left:50px;
+   font-size: 50px;
+   
+}
+.clothing .own{
+   margin-top: 200px;
+}
+.clothing p{
+   margin-left: 180px;
+   font-size: 20px;
+}
+.clothing .email{
+   margin-left: 200px;
+   margin-top: 1rem;
+}
+.clothing .email a{
+   color:grey;
+   font-size: 20px;
+}
+.clothing .great {
+   margin-left: 10px;
+   margin-top: 1rem;
+   
+}
+.clothing .great p{
+   color: grey;
+   font-size: 20px;
+}
+.clothing .great a{
+   color:grey;
+}
+.section .footer .one{
+   display: flex;
+   margin-top: 50px;
+   justify-content: space-between;
+   
+   
+}
+.section .footer .two{
+   
+
+   gap: 8rem;
+}
+.section .footer .one a {
+ color: darkgrey;
+}
+.section .footer .whom{
+   justify-content: space-between;
+}
+.section .footer .one:first-child{
+   
+}
+.section .footer .one .three{
+   gap:1rem;
+}
+.one .three img{
+   width: 20px;
+   height: 20px;
+   gap: 0.5rem;
+}
+.one .three .front{
+   gap: 1rem;
+}
+.impor.popx{
+   position:relative;
+}
+.grid h5{
+   color: black;
+   background: papayawhip;
+   position: absolute;
+   text-transform: uppercase;
+   padding: 10px;
+}
+.headerf{
+   
+}
+.life .ten{
+   color: white;
+   text-align: center;
+   margin-top: 300px;
+   font-size: 40px;
+   font-weight: 600px;
+}
+.body{
+   background: black;
+}
+.life p{
+   text-align: center;
+}
+.life .chain button{
+   align-items: center;
+   place-content: center;
+   padding: 10px;
+   width: 100px;
+   margin-top: 50px;
+   border-radius: 25px;
+   
+}
+.life .chain button {
+   font-size: 25px;
+   text-align: center;
+}
+.thirty{
+   width: 100%;
+   
+}
+.thirty .thirty-img{
+   display: flex;
+   width: 100%;
+   place-content: center;
+   margin-top: 50px;
+   
+}
+.row img{
+   width: 200px;
+   gap: 1rem;
+}
+.footer .same{
+   display: flex;
+   margin-top: 150px;
+   align-items: center;
+   justify-content: space-between;
+}
+.four .history img{
+   width: 20px;
+   height:20px;
+}
+.body-shop{
+   background: black;
+}
+.path {
+   width: 100%;
+   place-content: center;
+   display: grid;
+   margin-top: 50px;
+   grid-column: 3;
+}
+.path .trek{
+   display: flex;
+   align-items:center;
+   gap: 1rem;
+   
+}
+.trekky{
+   align-items: center;
+   width: 280px;
+   height: 450px;
+   border: 2px solid white;
+  background: white;
+  padding:10px;
+  place-content: center;
+  position: relative;
+  
+}
+.trekky img{
+   width: 250px;
+   height: 400px;
+   align-items: center;
+   justify-content: center;
+   place-content: center;
+   position: absolute;
+   margin-left: 12px;
+   margin-top: 20px;
+   
+}
+.pave{
+   margin-top:1rem;
+   
+}
+.pave .make{
+   display: flex;
+   gap: 1rem;
+   place-content: center;
+   
+   
+   
+}
+.pave .make img{
+   gap: 1rem;
+   margin-left: 12px;
+   margin-top: 20px;
+}
+.pave .make .part{
+   width: 280px;
+   height: 450px;
+   border: 2px solid white;
+  background: white;
+  padding:10px;
+  
+}
+
+.trekky .run{
+   margin-top: 1rem;
+}
+.trekky .run p{
+   color: white;
+}
+.trek h3{
+   color: white;
+}
+.pave h3{
+   color: white;
+}
+.fav {
+   margin-top: 20px;
+   width: 100%;
+   display: flex;
+   margin-left: 10px;
+}
+.fav .part{
+   width: 280px;
+   height: 450px;
+   border: 2px solid white;
+  background: white;
+  padding:10px;
+  margin-left: 15px;
+  left: 10px;
+  gap: 1rem;
+  
+}
+.trekky .send {
+   background: red;
+   color: white;
+}
+.row .column{
+   place-content: center;
+   align-items: center;
+}
+.row > .column {
+  
+ align-items: center;
+  display: flex;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column img{
+   width: 200px;
+   height: 300px;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fat .showoff .map img{
+   width: 100%;
+   height: 600px;
+   box-shadow: 4px 0 2px hsla(0, 0, 0, 0.3);
+}
+.zbody{
+   background: black;
+   margin: 0;
+}
+.fat .mav {
+   height: 1200p;
+   border: 4px solid white;
+   
+   background: white;
+   place-content: center;
+   
+}
+.peg {
+   display: flex;
+   align-items: center;
+   place-content: center;
+}
+.peg .school{
+   margin-top: 2rem;
+   display: flex;
+   align-items: center;
+   place-content: center;
+   justify-content: center;
+      gap:1rem;
+   
+}
+.peg .school .parent {
+   align-items: center;
+
+   background: white;
+   padding: 30px;
+   position: relative;
+   
+   
+}
+.peg .school .parent img{
+   width: 8rem;
+   height: 8rem;
+   gap:1rem;
+}
+.peg .school .parent p{
+   color: black;
+   position: absolute;
+   top:0;
+   left:0;
+   background: papayawhip;
+}
+
+.showoff h2{
+   color: white;
+   text-align: center;
+}
+p{
+   
+}
+.fat .map img{
+   width: 500px;
+   height: 700px;
+   margin-left: 30px;
+   margin-top: 30px;
+   box-shadow: 0 4px 2px rgba(0, 0, 0, 0.5); 
+}
+.fat .map{
+   
+   width: 400px;
+   height: 700px;
+   align-items: center;
+   place-content: center;
+   
+}
+.fat{
+   display: flex;
+   background: white;
+   width: 100%;
+   height: 800px;
+   
+}
+.fat h2 {
+  right:30px;
+  top: 0;
+ 
+
+
+   
+}
+.along {
+   
+   right: 10px;
+   
+   margin-top: 30px;
+   width: 440px;
+   height: 700px;
+   border: 2px solid white;
+   position: absolute;
+   
+}
+.along .div3 p{
+   color: black;
+   text-align: start;
+}
+.along .div3{
+   display: block;
+   padding: 20px;
+}
+.along .button{
+   width: 100%;
+   text-align: center;
+   
+   
+   border-radius: 20px;
+   background: gray;
+}
+.fat .shot{
+   display: flex;
+}
+.along .container{
+   padding: 20px;
+   align-items: center;
+}
+.fat .buttons{
+   text-align: center;
+   width: 100%;
+   height: 2.5rem;
+   border-radius: 20px;
+   border: 2px solid black;
+   background: dimgrey;
+}
+.along .button p{
+   text-align: center;
+   color: white;
+   font-size: 10px;
+}
+.victory h5{
+   color: black;
+   font-size: 20px;
+}
+.victory{
+   padding: 20px;
+}
+.victoryp{
+   color: dimgrey;
+}
+.x{
+   color: white;
+}
+.bodyd{
+   background: black;
+}
+.gee{
+   background: black;
+}
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+.for{
+   background: black;
+}
+.column .columnp{
+   background: red;
+   position: absolute;
+}
+.column img {
+   position: relative;
+}  
+.dee{
+   background: black;
+   color: white;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+.female .cee{
+   color:white;
+   text-align: center;
+   margin-top: 1rem;
+   font-size: 30px;
+   
+}
+.female .kay{
+   text-align: center;
+   font-size: 20px;
+}
+.dee img{
+   border: 2px solid white;
+   box-shadow: 2px 4px 0 rgba(255,255,255,0.9);
+   
+}
+.dee .female .rap{
+   
+   margin-left: 100px;
+   
+   background: orange;
+   width: 100%;
+   height: 500p;
+   border: 2px solid white;
+   padding: 10px;
+   text-align: center;
+   align-items: start;
+}
+.lost .mob{
+   gap: 1rem;
+   align-items: center;
+   overflow: hidden;
+   background: red;
+   position: relative;
+}
+.frame .lost{
+   margin-top: 1rem;
+   display: grid;
+   column-count: 3;
+   grid-template-columns: 30vw auto 30vw;
+   gap: 1rem;
+}
+.fa{
+   background: black;
+}
+.mob .clap{
+   color: red;
+   position: absolute;
+   background: orange;
+}
+.frame .dot{
+   width: 100% ;
+   height: 600px;
+   border: 2px solid white;
+   background: orange;
+   display: flex;
+   justify-content: space-between;
+}
+.dot .moon, .noon{
+   margin-top: 3rem;
+} 
+.dot .moon img{
+   border-radius: 50%;
+}
+.frame .viva{
+   text-align: center;
+}
+
+
+
+
